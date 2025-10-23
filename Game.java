@@ -212,7 +212,7 @@ class Enemy {
     }
 				public static void resolveCollision(){
 					if (CheckCollision(player, enemy)) {
-        System.out.println("⚔️ Collision detected between " + player.getName() + " and " + enemy.getEnemyType());
+        System.out.println(" Collision detected between " + player.getName() + " and " + enemy.getEnemyType());
         
         
         enemy.attack(player);
@@ -282,5 +282,6 @@ class Enemy {
 
 
 	
+
 
 
